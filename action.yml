@@ -73,3 +73,7 @@ runs:
 branding:
   icon: 'git-pull-request'
   color: 'gray-dark'
+  
+  - name: Create Pull Request
+  uses: peter-evans/create-pull-request@v3.10.0
+
